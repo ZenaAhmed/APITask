@@ -1,0 +1,34 @@
+
+nav{
+    background-color: rgb(6, 12, 34) !important;
+}
+.items{
+    cursor: pointer;
+    border: .6px solid #aaa;
+    border-radius: 15px;
+    position: relative;
+}
+.items h3{
+    color: #17a2b8;
+}
+
+
+.layout-container {
+    
+    background-color: rgba(0, 0, 0, .55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+
+#close {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #333;
+}
