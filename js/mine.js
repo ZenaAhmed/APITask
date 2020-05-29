@@ -40,7 +40,7 @@ function deletePost(index)
     displayData();
 }
 
-/*
+
 function showPost(){
     temp =``;
     for(let i=0 ; i<allData.length ; i++)
@@ -58,7 +58,6 @@ function showPost(){
         document.getElementById("post").innerHTML = temp;
     }
 }
-*/
 let layoutContainer = document.getElementById("layout-container");
 let close = document.getElementById("close");
 
